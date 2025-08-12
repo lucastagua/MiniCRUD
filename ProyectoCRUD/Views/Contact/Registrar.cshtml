@@ -1,0 +1,43 @@
+﻿@model ProyectoCRUD.Models.Contact
+
+@{
+    ViewBag.Title = "Registrar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row" style="margin-top:30px">
+    <div class="col-sm-12">
+
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h4>Registrar Contacto</h4>
+            </div>
+            <div class="panel-body">
+                <form action="@Url.Action("Registrar","Contact")" method="post">
+                    <div class="form-group">
+                        <label>Names</label>
+                        <input type="text" class="form-control" name="Names" />
+                    </div>
+                    <div class="form-group">
+                        <label>surnames</label>
+                        <input type="text" class="form-control" name="surnames" />
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="text" class="form-control" name="Phone" />
+                    </div>
+                    <div class="form-group">
+                        <label>Mail</label>
+                        <input type="text" class="form-control" name="Mail" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Registrar</button>
+                    <a class="btn btn-warning" href="@Url.Action("Inicio","Contact")">Volver</a>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+

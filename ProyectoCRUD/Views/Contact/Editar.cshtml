@@ -1,0 +1,45 @@
+﻿@model ProyectoCRUD.Models.Contact
+
+@{
+    ViewBag.Title = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row" style="margin-top:30px">
+    <div class="col-sm-12">
+
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <h4>Editar Contacto</h4>
+            </div>
+            <div class="panel-body">
+                <form action="@Url.Action("Editar","Contact")" method="post">
+                    <label>IdContacto</label>
+                    <input type="text" class="form-control" name="IdContact" value="@Html.DisplayTextFor(m => m.IdContact)" />
+                    <div class="form-group">
+                        <label>Names</label>
+                        <input type="text" class="form-control" name="Names" value="@Html.DisplayTextFor(m => m.Names)" />
+                    </div>
+                    <div class="form-group">
+                        <label>surnames</label>
+                        <input type="text" class="form-control" name="surnames" value="@Html.DisplayTextFor(m => m.surnames)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="text" class="form-control" name="Phone" value="@Html.DisplayTextFor(m => m.Phone)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Mail</label>
+                        <input type="text" class="form-control" name="Mail" value="@Html.DisplayTextFor(m => m.Mail)" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                    <a class="btn btn-warning" href="@Url.Action("Inicio","Contact")">Volver</a>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
