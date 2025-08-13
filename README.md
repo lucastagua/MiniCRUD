@@ -17,7 +17,7 @@ Aplicación CRUD (Create, Read, Update, Delete) para la gestión de contactos, d
 - **Frontend:** HTML, CSS, Bootstrap
 
 ## Capturas de pantalla
-![Listado de contactos](ruta-a-screenshot-listado.png)
+![Listado de contactos](ProyectoCRUD/Img/Listacontacto.png)
 ![Agregar Contacto](ruta-a-screenshot-formulario.png)
 ![Editar Contacto](ruta-a-screenshot-formulario.png)
 ![Eliminar Contacto](ruta-a-screenshot-formulario.png)
