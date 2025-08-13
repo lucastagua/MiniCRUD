@@ -137,7 +137,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Img\Listacontacto.png" />
-    <Content Include="Img\Registarcontacto.png" />
+    <Content Include="Img\Agregarcontacto.png" />
     <Content Include="Img\Editarcontacto.png" />
     <Content Include="Img\Eliminarcontacto.png" />
     <Content Include="Scripts\bootstrap.js" />
