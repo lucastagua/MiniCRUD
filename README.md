@@ -17,10 +17,10 @@ Aplicación CRUD (Create, Read, Update, Delete) para la gestión de contactos, d
 - **Frontend:** HTML, CSS, Bootstrap
 
 ## Capturas de pantalla
-![Listado de contactos](ProyectoCRUD/Img/Listacontacto.png)
-![Agregar Contacto](ProyectoCRUD/Img/Agregarcontacto.png)
-![Editar Contacto](ProyectoCRUD/Img/Editarcontacto.png)
-![Eliminar Contacto](ProyectoCRUD/Img/Elimnarcontacto.png)
+**Listado de contactos:**(ProyectoCRUD/Img/Listacontacto.png)
+**Agregar Contacto:**(ProyectoCRUD/Img/Agregarcontacto.png)
+**Editar Contacto:**(ProyectoCRUD/Img/Editarcontacto.png)
+**Eliminar Contacto:**(ProyectoCRUD/Img/Eliminarcontacto.png)
 
 ## Instalación
 1. Clonar este repositorio.
